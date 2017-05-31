@@ -1,0 +1,7 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.210.159    nn1.cluster.com nn1
+192.168.212.64     nn2.cluster.com nn2
+192.168.214.48	   jt1.cluster.com jt1
+
