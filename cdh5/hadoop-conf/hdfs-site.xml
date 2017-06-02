@@ -77,5 +77,23 @@
     <name>dfs.ha.automatic-failover.enabled</name>
     <value>true</value>
   </property>
+
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///disk1/hdfs/dn,file:///disk2/hdfs/dn</value>
+  </property>
+  <property>
+    <name>dfs.blocksize</name>
+    <value>67108864</value>
+  </property>
+  <property>
+    <name>dfs.replication</name>
+    <value>3</value>
+  </property>
+  <property>
+    <name>dfs.datanode.du.reserved</name>
+    <value>67108864</value>
+  </property>
+
 </configuration>
 

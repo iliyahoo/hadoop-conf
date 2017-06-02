@@ -40,8 +40,8 @@
   </property>
   <property>
     <name>yarn.log.aggregation-enable</name>
-    <value>true</value>
-  </property>
+    <value>true</value> 
+  </property>  
   <property>
     <name>yarn.nodemanager.local-dirs</name>
     <value>file:///disk1/yarn/local,file:///disk2/yarn/local</value>
@@ -89,74 +89,5 @@
     <value>nn1:2181,nn2:2181,jt1:2181</value>
   </property>
 
-  <property>
-    <name>yarn.nodemanager.resource.cpu-vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>yarn.nodemanager.resource.memory-mb</name>
-    <value>2048</value>
-  </property>
-  <property>
-    <name>yarn.scheduler.minimum-allocation-vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>yarn.scheduler.maxiimum-allocation-vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>yarn.scheduler.increment-allocation-vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>yarn.scheduler.minimum-allocation-mb</name>
-    <value>256</value>
-  </property>
-  <property>
-    <name>yarn.scheduler.maximum-allocation-mb</name>
-    <value>1024</value>
-  </property>
-  <property>
-    <name>yarn.scheduler.increment-allocation-mb</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>yarn.app.mapreduce.am.resource.cpu-vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>yarn.app.mapreduce.am.resource.mb</name>
-    <value>1024</value>
-  </property>
-  <property>
-    <name>mapreduce.map.cpu.vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>mapreduce.map.memory.mb</name>
-    <value>1024</value>
-  </property>
-  <property>
-    <name>mapreduce.map.java.opts.max.heap</name>
-    <value>1024</value>
-  </property>
-  <property>
-    <name>mapreduce.reduce.cpu.vcores</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>mapreduce.reduce.memory.mb</name>
-    <value>1024</value>
-  </property>
-  <property>
-    <name>mapreduce.reduce.java.opts</name>
-    <value>1024</value>
-  </property>
-  <property>
-    <name>mapreduce.task.io.sort.mb</name>
-    <value>256</value>
-  </property>
-  
 </configuration>
 
