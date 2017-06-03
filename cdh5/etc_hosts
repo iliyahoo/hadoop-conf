@@ -4,4 +4,6 @@
 192.168.210.159    nn1.cluster.com nn1
 192.168.212.64     nn2.cluster.com nn2
 192.168.214.48	   jt1.cluster.com jt1
-
+192.168.221.253    dn1.cluster.com dn1
+192.168.219.96     dn2.cluster.com dn2
+192.168.213.66     dn3.cluster.com dn3
